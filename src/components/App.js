@@ -23,7 +23,7 @@ class App extends Component {
                 {
                     this.state.gifts.map(gift => {
                         return (
-                            <div key={gift.id}></div>
+                            <div key={gift.id}>{gift.id}</div>
                         );
                     })
                 }
